@@ -52,12 +52,15 @@ class ElectronicWatchTest {
                 Arguments.of(86400, "0:00:00"),
                 Arguments.of(89999, "0:59:59"),
                 Arguments.of(86460, "0:01:00"),
+                Arguments.of(86808, "0:06:48"),
+                Arguments.of(259548, "0:05:48"),
                 Arguments.of(1, "0:00:01"),
                 Arguments.of(10, "0:00:10"),
                 Arguments.of(11, "0:00:11"),
                 Arguments.of(70, "0:01:10"),
                 Arguments.of(71, "0:01:11"),
-                Arguments.of(3601, "1:00:01")
+                Arguments.of(3601, "1:00:01"),
+                Arguments.of(32, "0:00:32")
         );
     }
 }
