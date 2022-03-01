@@ -4,9 +4,9 @@ import java.util.Scanner;
 
 public class ElectronicWatch {
 
-    private final static int MINUTES_IN_A_HOUR = 60;
-    private final static int SECONDS_IN_A_MINUTE = 60;
-    private final static int HOURS_IN_A_DAY = 24;
+    public final static int MINUTES_IN_A_HOUR = 60;
+    final static int SECONDS_IN_A_MINUTE = 60;
+    protected final static int HOURS_IN_A_DAY = 24;
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
